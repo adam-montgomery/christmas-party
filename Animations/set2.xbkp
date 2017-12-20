@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2017.32</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_SLIDER_SparkleFrequency=17</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=61</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Twinkle_ReRandom=1,E_CHECKBOX_Twinkle_Strobe=0,E_SLIDER_Twinkle_Count=48,E_SLIDER_Twinkle_Steps=22</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Fill_Color_Time=0,E_CHECKBOX_Fill_Offset_In_Pixels=1,E_CHECKBOX_Fill_Wrap=1,E_CHOICE_Fill_Direction=Up,E_SLIDER_Fill_Band_Size=0,E_SLIDER_Fill_Offset=0,E_SLIDER_Fill_Position=100,E_SLIDER_Fill_Skip_Size=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_SLIDER_Ripple_Thickness=3,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=10</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=10</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="7209065" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Groups" active="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="Poles" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree02" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree03" visible="1"/>
+    <Element collapsed="0" type="model" name="Cane04" visible="1"/>
+    <Element collapsed="0" type="model" name="Cane03" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree01" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree04" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree05" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree06" visible="1"/>
+    <Element collapsed="0" type="model" name="Cane02" visible="1"/>
+    <Element collapsed="0" type="model" name="Cane01" visible="1"/>
+    <Element collapsed="0" type="model" name="PixelPole02" visible="1"/>
+    <Element collapsed="0" type="model" name="PixelPole01" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer>
+        <Effect ref="0" name="Twinkle" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30100" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Canes">
+      <EffectLayer>
+        <Effect ref="2" name="Fill" startTime="0" endTime="30100" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Poles">
+      <EffectLayer>
+        <Effect ref="3" name="Ripple" selected="1" startTime="0" endTime="30100" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Cane04">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Vertical01">
+        <Effect ref="4" name="SingleStrand" startTime="0" endTime="30100" palette="3"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Cane03">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Vertical01">
+        <Effect ref="4" name="SingleStrand" selected="1" startTime="0" endTime="30100" palette="3"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Tree01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree04">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree05">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree06">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Cane02">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Vertical01">
+        <Effect ref="5" name="SingleStrand" startTime="0" endTime="30100" palette="3"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Cane01">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Vertical01">
+        <Effect ref="5" name="SingleStrand" startTime="0" endTime="30100" palette="3"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="PixelPole02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="PixelPole01">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>1</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2017.32</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Start,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1140665002" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Groups" active="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Canes" visible="1"/>
+    <Element collapsed="0" type="model" name="Poles" visible="1"/>
+    <Element collapsed="0" type="model" name="Cane01" visible="0"/>
+    <Element collapsed="0" type="model" name="Cane02" visible="0"/>
+    <Element collapsed="0" type="model" name="Cane03" visible="0"/>
+    <Element collapsed="0" type="model" name="Cane04" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer>
+        <Effect ref="0" name="Morph" startTime="0" endTime="5050" palette="0"/>
+        <Effect ref="0" name="Morph" id="1" startTime="5100" endTime="10000" palette="1"/>
+        <Effect ref="0" name="Morph" id="2" startTime="10000" endTime="15050" palette="0"/>
+        <Effect ref="0" name="Morph" id="3" startTime="15050" endTime="20100" palette="1"/>
+        <Effect ref="0" name="Morph" id="4" startTime="20100" endTime="25100" palette="0"/>
+        <Effect ref="0" name="Morph" id="5" startTime="25100" endTime="29950" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Canes">
+      <EffectLayer>
+        <Effect ref="0" name="Morph" startTime="0" endTime="5050" palette="1"/>
+        <Effect ref="0" name="Morph" id="1" startTime="5050" endTime="10000" palette="2"/>
+        <Effect ref="0" name="Morph" id="2" startTime="10000" endTime="15050" palette="1"/>
+        <Effect ref="0" name="Morph" id="3" startTime="15050" endTime="19950" palette="2"/>
+        <Effect ref="0" name="Morph" id="4" startTime="19950" endTime="25100" palette="1"/>
+        <Effect ref="0" name="Morph" id="5" startTime="25100" endTime="30050" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Poles">
+      <EffectLayer>
+        <Effect ref="0" name="Morph" startTime="0" endTime="5050" palette="2"/>
+        <Effect ref="0" name="Morph" id="1" startTime="5050" endTime="9950" palette="0"/>
+        <Effect ref="0" name="Morph" id="2" startTime="9950" endTime="15000" palette="2"/>
+        <Effect ref="0" name="Morph" id="3" startTime="15000" endTime="19900" palette="0"/>
+        <Effect ref="0" name="Morph" id="4" startTime="19950" endTime="25100" palette="2"/>
+        <Effect ref="0" name="Morph" id="5" startTime="25100" endTime="29800" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Cane01">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Cane02">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Cane03">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Cane04">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>1</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
